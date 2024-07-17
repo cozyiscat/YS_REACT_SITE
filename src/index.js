@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
-// import {App} from './App';
 import {App} from './App004';
+// import {App} from './App003';
 // import {Login} from './Loginpage';
 // const App = ()=> {
 //   const divStyle= {
@@ -18,6 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   {/* <Login/> */}
+  {console.log('lender')}
   <App/>
   </>
 );
