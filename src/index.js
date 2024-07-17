@@ -1,5 +1,7 @@
 import ReactDOM from 'react-dom/client';
-import {App} from './App';
+// import {App} from './App';
+import {App} from './App002';
+// import {Login} from './Loginpage';
 // const App = ()=> {
 //   const divStyle= {
 //     border: '1px solid blue'
@@ -15,6 +17,7 @@ import {App} from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  {/* <Login/> */}
   <App/>
   </>
 );
