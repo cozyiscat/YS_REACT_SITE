@@ -1,6 +1,6 @@
-import {MemoBox} from './components/MemoBox'
+import {MemberList} from './components/MemberList2'
 export function App(){
     return(
-        <MemoBox/>
+        <MemberList/>
     )
 }

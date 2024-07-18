@@ -1,8 +1,6 @@
-import {LoginBox} from './components/LoginBox'
+import {MemoBox} from './components/MemoBox'
 export function App(){
-    return (
-        <div>
-        <LoginBox/>
-        </div>
+    return(
+        <MemoBox/>
     )
-} 
+}
