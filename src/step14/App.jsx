@@ -1,9 +1,11 @@
-import { ScoreComp2 } from "./ScoreComp2";
+// import { ScoreComp2 } from "./ScoreComp2";
+import { LandingPage } from "./LandingPage";
 export function App(){
 
     return(
         <>
-        <ScoreComp2/>
+        <LandingPage/>
+        {/* <ScoreComp2/> */}
         </>
     );
 }
