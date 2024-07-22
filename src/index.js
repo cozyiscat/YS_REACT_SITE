@@ -1,6 +1,6 @@
 //파일정보 : src/index.js
 import ReactDOM from 'react-dom/client';
-import {App} from './step16/App';
+import {App} from './step17/App';
 // import {App} from './App003';
 // import {Login} from './Loginpage';
 // const App = ()=> {
