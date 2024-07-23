@@ -1,7 +1,13 @@
+import { AddrZone } from "./AddrZone";
+import { HotmenuZone } from "./HotmenuZone";
+
 export function BottomArea(){
     return(
         <>
-        <p>BottomArea</p>
+        <div id="bottomArea">
+            <HotmenuZone/>
+            <AddrZone/>
+        </div>
         </>
     )
 }
